@@ -1,0 +1,15 @@
+README
+
+in practicing parallizing different c programs using openmp, i started with a simple helloworld program
+    that uses openmp to run multiple different threads of the same print statement
+
+in using openmp for reduction in the pi.c program, i added the openmp imports to the file and from there 
+    added capabilities for using slurm that would allow me to see the completion time of the program, 
+    checking if the parallizing was actually helpfull
+
+    I found (as seen in the pi.out file) that using reduction, and 4 tnreads instead of one, the programs
+        completion time could be almost 1.5 times faster than its original completion time using one 
+        thread. 
+
+through the PTG problem set I was able to visually depict the task graphs for each problem and the possible
+    list scheduling and LPT scheduling tables that a computer would create computing these problems. 
